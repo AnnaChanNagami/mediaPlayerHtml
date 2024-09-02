@@ -1,0 +1,31 @@
+/* Styles par défaut (pour toutes les largeurs) */
+body {
+  margin: 0 3%;
+  font: 1.2em/1.2 Helvetica, Arial, sans-serif;
+}
+
+figure {
+  background: black;
+  border-radius: 5px;
+  color: white;
+  margin: 0 0 25px 0;
+  padding: 10px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Media Query pour une largeur minimale de 1020px */
+@media (min-width: 1020px) {
+  body {
+    background-color: rgba(0, 255, 0, 0.2); /* Couleur de fond vert */
+    margin: 25px 10%; /* Marge verticale et horizontale */
+  }
+
+  figure {
+    width: 30%;  /* Largeur à 30% */
+    margin-right: 2.5%; /* Marge droite de 2.5% */
+  }
+}
